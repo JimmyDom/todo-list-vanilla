@@ -1,0 +1,34 @@
+.container {
+    width: 450px;
+    margin: 50px auto;
+    padding: 30px;
+    border-radius: 16px;
+    background-color: #edf9f0;
+}
+.container h1 {
+    margin-bottom: 20px;
+}
+.todo-list {
+    padding: 0;
+    margin-bottom: 30px;
+}
+.todo-list li {
+    list-style-type: none;
+    margin-bottom: 10px;
+    border: 1px solid #77dc9b;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+.item-add-form {
+    display: flex;
+    justify-content: left;
+}
+.item-add-form input {
+    margin-right: 15px;
+}
+.item-add-form button {
+    background-color: #d8ffef;
+}
+.done {
+    text-decoration: line-through;
+}
